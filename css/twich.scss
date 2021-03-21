@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg");
+    background-attachment: fixed;
+
+    
+}
+.container {
+    background-color: rgba(0, 0, 25, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+
+    .row {
+        margin: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .content {
+            width: 300px;
+            height: 230px;
+            border: 2px solid;
+            border-radius: 5px;
+            margin: 10px;
+            transition: filter 1s, box-shadow 1s;
+            
+            .information {
+                display: flex;
+                background-color: 0, 0, 0, 0.6;
+                align-items: center;
+                padding-left: 20px;
+
+                .avatar {
+                    width: 50px;
+                    height: 50px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .describe {
+                    color: white;
+                    padding-left: 20px;
+                }
+            }
+
+        
+            &:hover {
+                cursor: pointer;
+                box-shadow: 5px 5px 20px 5px rgba(0, 0, 25, 0.5);
+                filter: brightness(1.5);
+            
+            }
+            
+.preview {
+    img {
+    width: 100%;
+    }            
+        }
+    }
+} 
+
+}
